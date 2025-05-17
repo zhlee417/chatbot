@@ -2,8 +2,6 @@
 
 [![OpenAI cal.com Chatbot](https://img.youtube.com/vi/w5EQb1lRyOo/0.jpg)](https://www.youtube.com/watch?v=w5EQb1lRyOo)
 
-# Function calling coding challenge
-
 ## Overview
 
 Your task is to create an interactive chatbot using OpenAI's function calling capabilities. 
@@ -27,32 +25,3 @@ Bonus points for the following features:
  - When the user says something like "cancel my event at 3pm today", find the event (based on the user's email) and cancel the right event.
  - Implement the feature to reschedule an event booked by the user.
  - Build an interactive web UI. You may use LLM UI framework such as chainlit or streamlit.
-
-### Language
-
-Please use Python for this code challenge.
-
-## References
-
-### OpenAI Function Calling Reference
-
-Below are some resources to help you get started:
-
-- [OpenAI Function Calling Documentation](https://platform.openai.com/docs/guides/function-calling)
-- You may use Langchain to make the development of the chatbot easier. 
-  - [Langchain tool calling](https://python.langchain.com/docs/how_to/tool_calling/)
-
-For this code challenge, we provide you with a test API key to use with OpenAI's function calling feature.
-Please don't use this key for any other purpose. And don't share it with anyone else.
-**Remember, don't commit it to any public repository.**
-
-```
-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
-```
-
-### Cal.com API Reference
-
-First, you'll need to create a cal.com account and obtain an API key. Follow the instructions in the 
-[authentication document](https://cal.com/docs/enterprise-features/api/authentication) to get started.
-
-Second, here is the documentation for the cal.com [booking API](https://cal.com/docs/enterprise-features/api/api-reference/bookings#find-all-bookings) and [slot api](https://cal.com/docs/enterprise-features/api/api-reference/slots#get-user-or-team-event-type-slots).
